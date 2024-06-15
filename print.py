@@ -15,3 +15,24 @@ print(kan)
 string="hello dude"
 
 print(string)
+
+# name = "maga"
+# age = 26
+
+# def person(name, age):
+#     data = name
+#     age = age
+#     print(name + " is " str(age) + " years of old ") 
+
+
+# person(name, age)
+
+name = "maga"
+age = 26
+
+def person(name, age):
+    print(name + " is " + str(age) + " years old")
+
+# Call the function outside its definition
+person(name, age)
+
