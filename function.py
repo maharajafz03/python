@@ -42,3 +42,16 @@ b = "3"
 
 print(a + b)
 
+def function(a, b):
+    sum = a + b
+    return sum
+
+result = function(55, 64)
+
+print(result)
+
+def loop(a, b, c):
+    for val in range(a, b, c):
+        print(val)
+
+loop(119, 3, -1)
