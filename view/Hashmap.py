@@ -16,7 +16,14 @@ class Ashmap:
         if self.hashlist[index] is None:
             self.hashlist[index] = [[key, value]]
         else:
+            sublist = self.hashlist[index]
+            for pairs in sublist:
+                if pairs[0] == key:
+                   pairs[1] = value
+                   return pairs[1]
+                
             self.hashlist[index].append([key, value])
+            
     
     def get(self, key):
         index = self.getindex(key)
@@ -37,7 +44,7 @@ class Ashmap:
 
         if self.hashlist[index] is None:
         #     ---------- its mean by none index is none                        
-            sublist = self.hashlist[index]
+            sublist = self.hashlist[index] 
             # print(sublist)
             for i,pairs in enumerate (sublist):
                 if pairs[0] == key:
