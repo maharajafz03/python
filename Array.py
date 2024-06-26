@@ -36,3 +36,4 @@ else:
 
 print(name)
 
+print(hash('pundai'))
