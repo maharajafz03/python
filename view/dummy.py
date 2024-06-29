@@ -1,13 +1,13 @@
 
 
 
-# def add():
-#     def sum():
-#         print("hello mother fucker")
+def add():
+    def sum():
+        print("hello mother fucker")
 
-# name = add()
+name = add()
 
-# print(name)
+print(name)
 
 def calc_factorial(num):
     if num == 1:
