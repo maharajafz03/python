@@ -1,22 +1,22 @@
-# name = "mag"
-# age = 2
+name = "mag"
+age = 2
 
-# if age >= 18:
-#    print("you allowed")
-# elif name == "maga":
-#     print("you allowed but just 1 hr time")
-# else:
-#     print("not allowed")
+if age >= 18:
+   print("you allowed")
+elif name == "maga":
+    print("you allowed but just 1 hr time")
+else:
+    print("not allowed")
     
 
 
 
-# if 2 >= 1:
-#     print("greaterthan")
-# elif 2 <= 1:
-#     print("lesserthan")
-# else:
-#     print("not found")
+if 2 >= 1:
+    print("greaterthan")
+elif 2 <= 1:
+    print("lesserthan")
+else:
+    print("not found")
 
 
 wife = "yamuna"
