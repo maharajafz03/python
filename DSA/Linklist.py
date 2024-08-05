@@ -60,6 +60,7 @@ class LinkedList:
                 break
 
             itr = itr.next
+            # hello welcome back memntroion becaue ussaullub <hello behind> becaude
             count += 1
 
     def remove_at(self, index):

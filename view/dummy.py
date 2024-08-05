@@ -1,116 +1,130 @@
  
 
 
-def add():
-    def sum():
-        print("hello mother fucker")
+# def add():
+#     def sum():
+#         print("hello mother fucker")
 
-name = add()
+# name = add()
 
-print(name)
+# print(name)
 
-def calc_factorial(num):
-    if num == 1:
-        return 1
-    else:
-        return(num+calc_factorial(num-1))
+# def calc_factorial(num):
+#     if num == 1:
+#         return 1
+#     else:
+#         return(num+calc_factorial(num-1))
     
-result = calc_factorial(6)
+# result = calc_factorial(6)
 
-print(result)
+# print(result)
 
 
 
-s';dfmnburgfkk   \(P)OI)9\
-\ 
-;kbu htem jj  n'qeeddhif
-\*()*(\
+# s';dfmnburgfkk   \(P)OI)9\
+# \ 
+# ;kbu htem jj  n'qeeddhif
+# \*()*(\
 
- \p c]oodu tyhe e kjuyguf
+#  \p c]oodu tyhe e kjuyguf
  
  
  
- sdchg
+#  sdchg
  
  
- c ojdierriu
- jthvhjbjhebrf u0998080\
+#  c ojdierriu
+#  jthvhjbjhebrf u0998080\
   
-  meerf
-  \[) [
-  
-  
-  
-  kthyhe pp){
-  '
-  
-  
-  '
-  ejdfk  kjbhb'
-  
-  ((|
-  
-  
-  ''
-  ll    h5ghb23]
-  
-  namr   --==== "mager
-  
-  
-  mnefh jv  ___ <<< gekko9 jnj  wrkci9ne n
-  \\\
-  \\\
+#   meerf
+#   \[) [
   
   
   
+#   kthyhe pp){
+#   '
   
   
-  wwekcin  tio come tio lide n,mj
+#   '
+#   ejdfk  kjbhb'
+  
+#   ((|
+  
+  
+#   ''
+#   ll    h5ghb23]
+  
+#   namr   --==== "mager
+  
+  
+#   mnefh jv  ___ <<< gekko9 jnj  wrkci9ne n
+#   \\\
+#   \\\
+  
+  
+  
+  
+  
+#   wwekcin  tio come tio lide n,mj
 
 
- welcime the tnthjvvufbbn
+#  welcime the tnthjvvufbbn
  
  
- >:
+#  >:
    
    
-   ' '
-    llbu22     she,wneedkjgw8e \
+#    ' '
+#     llbu22     she,wneedkjgw8e \
     
     
     
-     jhieh2ij3h   
+#      jhieh2ij3h   
      
      
       
        
-        lnugugr90
+#         lnugugr90
         
         
-        HELLJU0 X;LCJVUYG
+#         HELLJU0 X;LCJVUYG
         
-         [,VV'
-          ;
-           ;
-            PH8Y87YWE     WMNEFFH  ()((
+#          [,VV'
+#           ;
+#            ;
+#             PH8Y87YWE     WMNEFFH  ()((
             	
             		
             		
             		
             		
             		
-            		;nbvjhsgw7d 
+#             		;nbvjhsgw7d 
         
-      [ 90 HEL9 []]\b ]itghem   jkjhiruf
+#       [ 90 HEL9 []]\b ]itghem   jkjhiruf
   
-  \()_(
-  \ 
-  ][ [p iiuhihr  trhh3 nb )()\ \\   \ \l;mdlfkgh
+#   \()_(
+#   \ 
+#   ][ [p iiuhihr  trhh3 nb )()\ \\   \ \l;mdlfkgh
   
   
   
-  ;lelkfshgiuyp
-   ';kklrhhtt5hgieg
+#   ;lelkfshgiuyp
+#    ';kklrhhtt5hgieg
    
    
    
+
+
+
+
+
+class manage:
+    
+    def __init__(self) -> None:
+        print("hello__world");
+
+    def manude (self)  -> None:
+        print("welcome world");
+
+manage()
