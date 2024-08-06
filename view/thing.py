@@ -9,9 +9,9 @@ array.insert(0, "hello")
 print(array[3])
 print(array)
 
-num = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+List = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 
-def find_max_element(num: List[int]) -> int:
+def find_max_element(arr: List[int]) -> int:
     pass
 
 from typing import List
@@ -21,5 +21,6 @@ def find_max_element(arr: List[int]) -> int:
     for num in arr:
         if num > max_element:
             max_element = num
-            print(max_element)
+    return max_element
+
 
