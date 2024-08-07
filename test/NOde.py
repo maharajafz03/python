@@ -30,21 +30,21 @@
 
 
 
-class Node:
-    memory = None
-    address = None
+# class Node:
+#     memory = None
+#     address = None
 
-    def __init__(self, memory):
-        self.memory = memory
+#     def __init__(self, memory):
+#         self.memory = memory
 
 
-add = Node("hello")
+# add = Node("hello")
 
-add.address = "0xxlw2h4u0y763512"
+# add.address = "0xxlw2h4u0y763512"
         
 
-print(add.memory)
-print(add.address)
+# print(add)
+# print(add)
 
 
 
@@ -55,7 +55,9 @@ print(add.address)
 
 
 
+a = 2987654
 
+print(bin(a))
 
 
 
