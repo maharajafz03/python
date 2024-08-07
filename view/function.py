@@ -25,7 +25,7 @@ wed(husban)
 
 # data(couple)
 
-
+# --------------------->>   tuple   <<-----------------------------------
 couple = {"name": "maga", "age": "23"}
 
 def data():
