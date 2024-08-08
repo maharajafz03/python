@@ -22,3 +22,11 @@ node2 = name()
 #  non convertable
 print(node2.node1)
 print(Node)
+
+
+class node:
+    self.node = None;    
+    self.data = None;
+
+
+
