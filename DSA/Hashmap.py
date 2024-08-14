@@ -28,7 +28,7 @@ class Ashmap:
     def get(self, key):
         index = self.getindex(key)
 
-        if self.hashlist[index]:
+        if self.hashlist[index] is None:
         #     ---------- its mean by none index is none                        
             sublist = self.hashlist[index]
             # print(sublist)
@@ -56,14 +56,7 @@ class Ashmap:
 object = Ashmap()
 object.add ("name", "maga")
 object.add ("age", "24")
-object.add ("Name", "fucker")
-object.add ("age", "28")
-# object.add ("name", "dash")
-# object.add ("age", "25")
-# object.add ("name", "allen")
-# object.add ("age", "29")
-# print (object.get("name"))
-# print (object.get("age"))
-del object["name"]
-print(object.get("name"))
+print (object.get("name"))
+print (object.get("age"))
+
 

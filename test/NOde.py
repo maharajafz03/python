@@ -64,6 +64,7 @@ print(bin(a))
 
 
 
+print(hash)
 
 
 
