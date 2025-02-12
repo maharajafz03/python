@@ -1,71 +1,44 @@
 
-# class Node:
-#     data = None
-#     pointer = None
-    
-#     def __init__(self, data) -> None:
-#         self.data = data
+from collections import Counter
 
-# node1 = Node(19)
-# node1.pointer = "ex078jy9675"
+a = 'aaaaadddddeeeeccc'
 
-# print(node1.data)
-# print(node1.pointer)
+res = Counter(a)
+print(res.values())
 
+mydic = {"name": "maga",
+          "age": "25",
+          "qualification": "m.com"
+          }
 
-# node2 = Node(10)
-# node2.pointer = "a78hff9675"
+glan = "welcome"
 
-# print(node2.data)
-# print(node2.pointer)
+for val in glan:
+   print(val)
 
 
+var = 123
+print("this is a number %d" %var)
 
 
+# # print(mydic)
+# mydic["email"] = "raja960@gmail.com"
+
+# for key , value in mydic.items():
+#     print(key, value)
 
 
+# contrl = [{"name": "maga",
+#           "age": "25",
+#           "qualification": "m.com"
+#           }, {"name": "raja",
+#           "age": "25",
+#           "qualification": "m.com"
+#           }, {"name": "kiva",
+#           "age": "25",
+#           "qualification": "m.com"
+#           }]
 
-
-
-
-
-
-# class Node:
-#     memory = None
-#     address = None
-
-#     def __init__(self, memory):
-#         self.memory = memory
-
-
-# add = Node("hello")
-
-# add.address = "0xxlw2h4u0y763512"
-        
-
-# print(add)
-# print(add)
-
-
-
-
-
-
-
-
-
-
-a = 2987654
-
-print(bin(a))
-
-
-
-
-
-
-print(hash)
-
-
-
-
+# for val in contrl:
+#     for key , value in val.items():
+#         print(f"{key, value}----->")
